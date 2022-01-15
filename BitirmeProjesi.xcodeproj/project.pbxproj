@@ -7,15 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E9FE313C7E7968EBB04D2C9 /* Pods_BitirmeProjesi_BitirmeProjesiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2362AB59950455836FB50 /* Pods_BitirmeProjesi_BitirmeProjesiUITests.framework */; };
+		3C54B50A856CC99E57DC0E98 /* Pods_BitirmeProjesiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498154CF8A44EEF6BF8668B2 /* Pods_BitirmeProjesiTests.framework */; };
+		AF1FE8175CA260DEF6753099 /* Pods_BitirmeProjesi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942188E55CB9373E1231DD13 /* Pods_BitirmeProjesi.framework */; };
+		E82A76BD27905C83005A9A6D /* TumUrunlerCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82A76BC27905C83005A9A6D /* TumUrunlerCVC.swift */; };
 		E83BA85B278EC1C300FC6B1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83BA85A278EC1C300FC6B1D /* AppDelegate.swift */; };
 		E83BA85D278EC1C300FC6B1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83BA85C278EC1C300FC6B1D /* SceneDelegate.swift */; };
-		E83BA85F278EC1C300FC6B1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83BA85E278EC1C300FC6B1D /* ViewController.swift */; };
 		E83BA862278EC1C300FC6B1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E83BA860278EC1C300FC6B1D /* Main.storyboard */; };
 		E83BA864278EC1C400FC6B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83BA863278EC1C400FC6B1D /* Assets.xcassets */; };
 		E83BA867278EC1C400FC6B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E83BA865278EC1C400FC6B1D /* LaunchScreen.storyboard */; };
 		E83BA872278EC1C400FC6B1D /* BitirmeProjesiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83BA871278EC1C400FC6B1D /* BitirmeProjesiTests.swift */; };
 		E83BA87C278EC1C400FC6B1D /* BitirmeProjesiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83BA87B278EC1C400FC6B1D /* BitirmeProjesiUITests.swift */; };
 		E83BA87E278EC1C400FC6B1D /* BitirmeProjesiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83BA87D278EC1C400FC6B1D /* BitirmeProjesiUITestsLaunchTests.swift */; };
+		E83BA88C278EC56400FC6B1D /* Harabara.otf in Resources */ = {isa = PBXBuildFile; fileRef = E83BA88B278EC56400FC6B1D /* Harabara.otf */; };
+		E83BA88E278EC7E300FC6B1D /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83BA88D278EC7E300FC6B1D /* OnboardingVC.swift */; };
+		E83BA891278EC99D00FC6B1D /* nusret-video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E83BA890278EC99D00FC6B1D /* nusret-video.mp4 */; };
+		E83BA899278EF6E400FC6B1D /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83BA898278EF6E400FC6B1D /* AnasayfaVC.swift */; };
+		E83BA89F278F0B7F00FC6B1D /* YemekCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83BA89E278F0B7F00FC6B1D /* YemekCevap.swift */; };
+		E83BA8A1278F0C0400FC6B1D /* Yemek.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83BA8A0278F0C0400FC6B1D /* Yemek.swift */; };
+		E83BA8A7278F16A800FC6B1D /* YemekDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83BA8A6278F16A800FC6B1D /* YemekDetayVC.swift */; };
+		E8444AA0278F77270011CAD3 /* CategoryCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444A9F278F77270011CAD3 /* CategoryCVC.swift */; };
+		E8444AA4278F77E00011CAD3 /* String_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444AA3278F77E00011CAD3 /* String_Extension.swift */; };
+		E8444AA6278F7B360011CAD3 /* YemekKategori.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444AA5278F7B360011CAD3 /* YemekKategori.swift */; };
+		E8444AAA278F7F6D0011CAD3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444AA9278F7F6D0011CAD3 /* CardView.swift */; };
+		E8444AAC278F8ACB0011CAD3 /* PopulerCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444AAB278F8ACB0011CAD3 /* PopulerCVC.swift */; };
+		E85DA8152792C1D000969121 /* YemekDetayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85DA8142792C1D000969121 /* YemekDetayPresenter.swift */; };
+		E85DA8172792C26C00969121 /* YemekDetayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85DA8162792C26C00969121 /* YemekDetayRouter.swift */; };
+		E85DA81A2792C54500969121 /* SepetProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85DA8192792C54500969121 /* SepetProtocols.swift */; };
+		E85DA81C2792C5E700969121 /* SepetInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85DA81B2792C5E700969121 /* SepetInteractor.swift */; };
+		E85DA81E2792C6BB00969121 /* SepetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85DA81D2792C6BB00969121 /* SepetPresenter.swift */; };
+		E85DA8202792C72E00969121 /* SepetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85DA81F2792C72E00969121 /* SepetRouter.swift */; };
+		E8855C9F27920E3C000E217E /* SepetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8855C9E27920E3C000E217E /* SepetVC.swift */; };
+		E8855CA327920F05000E217E /* KategoriListeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8855CA227920F05000E217E /* KategoriListeVC.swift */; };
+		E8855CA827923A70000E217E /* ListeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8855CA627923A70000E217E /* ListeTableCell.swift */; };
+		E8855CAB27923D8C000E217E /* Sepet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8855CAA27923D8C000E217E /* Sepet.swift */; };
+		E8855CAD27923DE4000E217E /* SepetCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8855CAC27923DE4000E217E /* SepetCevap.swift */; };
+		E8855CB727924771000E217E /* AnasayfaProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8855CB627924771000E217E /* AnasayfaProtocols.swift */; };
+		E8855CB9279247F2000E217E /* AnasayfaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8855CB8279247F2000E217E /* AnasayfaInteractor.swift */; };
+		E8855CBC27924830000E217E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E8855CBB27924830000E217E /* Alamofire */; };
+		E8855CBE27924953000E217E /* AnasayfaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8855CBD27924953000E217E /* AnasayfaPresenter.swift */; };
+		E8855CC0279249A1000E217E /* AnasayfaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8855CBF279249A1000E217E /* AnasayfaRouter.swift */; };
+		E8855CC22792529E000E217E /* YemekDetayProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8855CC12792529E000E217E /* YemekDetayProtocols.swift */; };
+		E8855CC42792531A000E217E /* YemekDetayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8855CC32792531A000E217E /* YemekDetayInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +69,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C985D27F5A4BE0E5F148D1D /* Pods-BitirmeProjesi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitirmeProjesi.release.xcconfig"; path = "Target Support Files/Pods-BitirmeProjesi/Pods-BitirmeProjesi.release.xcconfig"; sourceTree = "<group>"; };
+		144BE2F4E2D77D47B19D5426 /* Pods-BitirmeProjesiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitirmeProjesiTests.debug.xcconfig"; path = "Target Support Files/Pods-BitirmeProjesiTests/Pods-BitirmeProjesiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C85567AA4090499D938F1FC /* Pods-BitirmeProjesi-BitirmeProjesiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitirmeProjesi-BitirmeProjesiUITests.release.xcconfig"; path = "Target Support Files/Pods-BitirmeProjesi-BitirmeProjesiUITests/Pods-BitirmeProjesi-BitirmeProjesiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		36C1C685E5310342573AFFF4 /* Pods-BitirmeProjesi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitirmeProjesi.debug.xcconfig"; path = "Target Support Files/Pods-BitirmeProjesi/Pods-BitirmeProjesi.debug.xcconfig"; sourceTree = "<group>"; };
+		3FFBA906F44DD7F37E11138B /* Pods-BitirmeProjesiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitirmeProjesiTests.release.xcconfig"; path = "Target Support Files/Pods-BitirmeProjesiTests/Pods-BitirmeProjesiTests.release.xcconfig"; sourceTree = "<group>"; };
+		498154CF8A44EEF6BF8668B2 /* Pods_BitirmeProjesiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitirmeProjesiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D2362AB59950455836FB50 /* Pods_BitirmeProjesi_BitirmeProjesiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitirmeProjesi_BitirmeProjesiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88CE5BF18F826877AD2E3C1C /* Pods-BitirmeProjesi-BitirmeProjesiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitirmeProjesi-BitirmeProjesiUITests.debug.xcconfig"; path = "Target Support Files/Pods-BitirmeProjesi-BitirmeProjesiUITests/Pods-BitirmeProjesi-BitirmeProjesiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		942188E55CB9373E1231DD13 /* Pods_BitirmeProjesi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitirmeProjesi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82A76BC27905C83005A9A6D /* TumUrunlerCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumUrunlerCVC.swift; sourceTree = "<group>"; };
 		E83BA857278EC1C300FC6B1D /* BitirmeProjesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitirmeProjesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83BA85A278EC1C300FC6B1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E83BA85C278EC1C300FC6B1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E83BA85E278EC1C300FC6B1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E83BA861278EC1C300FC6B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E83BA863278EC1C400FC6B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E83BA866278EC1C400FC6B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +91,35 @@
 		E83BA877278EC1C400FC6B1D /* BitirmeProjesiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitirmeProjesiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83BA87B278EC1C400FC6B1D /* BitirmeProjesiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitirmeProjesiUITests.swift; sourceTree = "<group>"; };
 		E83BA87D278EC1C400FC6B1D /* BitirmeProjesiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitirmeProjesiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E83BA88B278EC56400FC6B1D /* Harabara.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Harabara.otf; sourceTree = "<group>"; };
+		E83BA88D278EC7E300FC6B1D /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		E83BA890278EC99D00FC6B1D /* nusret-video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nusret-video.mp4"; sourceTree = "<group>"; };
+		E83BA898278EF6E400FC6B1D /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
+		E83BA89E278F0B7F00FC6B1D /* YemekCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekCevap.swift; sourceTree = "<group>"; };
+		E83BA8A0278F0C0400FC6B1D /* Yemek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yemek.swift; sourceTree = "<group>"; };
+		E83BA8A6278F16A800FC6B1D /* YemekDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetayVC.swift; sourceTree = "<group>"; };
+		E8444A9F278F77270011CAD3 /* CategoryCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCVC.swift; sourceTree = "<group>"; };
+		E8444AA3278F77E00011CAD3 /* String_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_Extension.swift; sourceTree = "<group>"; };
+		E8444AA5278F7B360011CAD3 /* YemekKategori.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekKategori.swift; sourceTree = "<group>"; };
+		E8444AA9278F7F6D0011CAD3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E8444AAB278F8ACB0011CAD3 /* PopulerCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulerCVC.swift; sourceTree = "<group>"; };
+		E85DA8142792C1D000969121 /* YemekDetayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetayPresenter.swift; sourceTree = "<group>"; };
+		E85DA8162792C26C00969121 /* YemekDetayRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetayRouter.swift; sourceTree = "<group>"; };
+		E85DA8192792C54500969121 /* SepetProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetProtocols.swift; sourceTree = "<group>"; };
+		E85DA81B2792C5E700969121 /* SepetInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetInteractor.swift; sourceTree = "<group>"; };
+		E85DA81D2792C6BB00969121 /* SepetPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetPresenter.swift; sourceTree = "<group>"; };
+		E85DA81F2792C72E00969121 /* SepetRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetRouter.swift; sourceTree = "<group>"; };
+		E8855C9E27920E3C000E217E /* SepetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetVC.swift; sourceTree = "<group>"; };
+		E8855CA227920F05000E217E /* KategoriListeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriListeVC.swift; sourceTree = "<group>"; };
+		E8855CA627923A70000E217E /* ListeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeTableCell.swift; sourceTree = "<group>"; };
+		E8855CAA27923D8C000E217E /* Sepet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepet.swift; sourceTree = "<group>"; };
+		E8855CAC27923DE4000E217E /* SepetCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetCevap.swift; sourceTree = "<group>"; };
+		E8855CB627924771000E217E /* AnasayfaProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaProtocols.swift; sourceTree = "<group>"; };
+		E8855CB8279247F2000E217E /* AnasayfaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaInteractor.swift; sourceTree = "<group>"; };
+		E8855CBD27924953000E217E /* AnasayfaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaPresenter.swift; sourceTree = "<group>"; };
+		E8855CBF279249A1000E217E /* AnasayfaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaRouter.swift; sourceTree = "<group>"; };
+		E8855CC12792529E000E217E /* YemekDetayProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetayProtocols.swift; sourceTree = "<group>"; };
+		E8855CC32792531A000E217E /* YemekDetayInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetayInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +127,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1FE8175CA260DEF6753099 /* Pods_BitirmeProjesi.framework in Frameworks */,
+				E8855CBC27924830000E217E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C54B50A856CC99E57DC0E98 /* Pods_BitirmeProjesiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +144,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E9FE313C7E7968EBB04D2C9 /* Pods_BitirmeProjesi_BitirmeProjesiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046D310F257EFFB27FD70077 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36C1C685E5310342573AFFF4 /* Pods-BitirmeProjesi.debug.xcconfig */,
+				0C985D27F5A4BE0E5F148D1D /* Pods-BitirmeProjesi.release.xcconfig */,
+				88CE5BF18F826877AD2E3C1C /* Pods-BitirmeProjesi-BitirmeProjesiUITests.debug.xcconfig */,
+				1C85567AA4090499D938F1FC /* Pods-BitirmeProjesi-BitirmeProjesiUITests.release.xcconfig */,
+				144BE2F4E2D77D47B19D5426 /* Pods-BitirmeProjesiTests.debug.xcconfig */,
+				3FFBA906F44DD7F37E11138B /* Pods-BitirmeProjesiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E82A76B827905914005A9A6D /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E8855CC12792529E000E217E /* YemekDetayProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		E82A76B92790591C005A9A6D /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E8855CC32792531A000E217E /* YemekDetayInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		E82A76BA27905921005A9A6D /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E85DA8142792C1D000969121 /* YemekDetayPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		E82A76BB27905926005A9A6D /* router */ = {
+			isa = PBXGroup;
+			children = (
+				E85DA8162792C26C00969121 /* YemekDetayRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
 		E83BA84E278EC1C300FC6B1D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +203,8 @@
 				E83BA870278EC1C400FC6B1D /* BitirmeProjesiTests */,
 				E83BA87A278EC1C400FC6B1D /* BitirmeProjesiUITests */,
 				E83BA858278EC1C300FC6B1D /* Products */,
+				046D310F257EFFB27FD70077 /* Pods */,
+				FA4758CDEFF752C1D0A31164 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +221,11 @@
 		E83BA859278EC1C300FC6B1D /* BitirmeProjesi */ = {
 			isa = PBXGroup;
 			children = (
+				E85DA8232793004500969121 /* modules */,
+				E8444AA1278F77BC0011CAD3 /* Utils */,
+				E83BA89D278F0B7100FC6B1D /* entity */,
 				E83BA85A278EC1C300FC6B1D /* AppDelegate.swift */,
 				E83BA85C278EC1C300FC6B1D /* SceneDelegate.swift */,
-				E83BA85E278EC1C300FC6B1D /* ViewController.swift */,
 				E83BA860278EC1C300FC6B1D /* Main.storyboard */,
 				E83BA863278EC1C400FC6B1D /* Assets.xcassets */,
 				E83BA865278EC1C400FC6B1D /* LaunchScreen.storyboard */,
@@ -127,6 +251,267 @@
 			path = BitirmeProjesiUITests;
 			sourceTree = "<group>";
 		};
+		E83BA88A278EC55300FC6B1D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E83BA88B278EC56400FC6B1D /* Harabara.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E83BA88F278EC99400FC6B1D /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				E83BA890278EC99D00FC6B1D /* nusret-video.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		E83BA892278EF65A00FC6B1D /* anasayfa-module */ = {
+			isa = PBXGroup;
+			children = (
+				E83BA897278EF6D200FC6B1D /* router */,
+				E83BA896278EF6CA00FC6B1D /* presenter */,
+				E83BA895278EF6C400FC6B1D /* interactor */,
+				E83BA894278EF67300FC6B1D /* protocols */,
+				E83BA89A278F078800FC6B1D /* collectionViewCell */,
+				E83BA893278EF66D00FC6B1D /* view */,
+			);
+			path = "anasayfa-module";
+			sourceTree = "<group>";
+		};
+		E83BA893278EF66D00FC6B1D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E83BA898278EF6E400FC6B1D /* AnasayfaVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E83BA894278EF67300FC6B1D /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E8855CB627924771000E217E /* AnasayfaProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		E83BA895278EF6C400FC6B1D /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E8855CB8279247F2000E217E /* AnasayfaInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		E83BA896278EF6CA00FC6B1D /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E8855CBD27924953000E217E /* AnasayfaPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		E83BA897278EF6D200FC6B1D /* router */ = {
+			isa = PBXGroup;
+			children = (
+				E8855CBF279249A1000E217E /* AnasayfaRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		E83BA89A278F078800FC6B1D /* collectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E8444A9F278F77270011CAD3 /* CategoryCVC.swift */,
+				E8444AAB278F8ACB0011CAD3 /* PopulerCVC.swift */,
+				E82A76BC27905C83005A9A6D /* TumUrunlerCVC.swift */,
+			);
+			path = collectionViewCell;
+			sourceTree = "<group>";
+		};
+		E83BA89D278F0B7100FC6B1D /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				E83BA89E278F0B7F00FC6B1D /* YemekCevap.swift */,
+				E83BA8A0278F0C0400FC6B1D /* Yemek.swift */,
+				E8444AA5278F7B360011CAD3 /* YemekKategori.swift */,
+				E8855CAA27923D8C000E217E /* Sepet.swift */,
+				E8855CAC27923DE4000E217E /* SepetCevap.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		E83BA8A2278F166A00FC6B1D /* yemekdetay-module */ = {
+			isa = PBXGroup;
+			children = (
+				E82A76BB27905926005A9A6D /* router */,
+				E82A76BA27905921005A9A6D /* presenter */,
+				E82A76B92790591C005A9A6D /* interactor */,
+				E82A76B827905914005A9A6D /* protocols */,
+				E83BA8A5278F168800FC6B1D /* view */,
+			);
+			path = "yemekdetay-module";
+			sourceTree = "<group>";
+		};
+		E83BA8A5278F168800FC6B1D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E83BA8A6278F16A800FC6B1D /* YemekDetayVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E8444AA1278F77BC0011CAD3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E8444AA7278F7F530011CAD3 /* Widgets */,
+				E8444AA2278F77C60011CAD3 /* Extensions */,
+				E83BA88A278EC55300FC6B1D /* Fonts */,
+				E83BA88F278EC99400FC6B1D /* Videos */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E8444AA2278F77C60011CAD3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E8444AA3278F77E00011CAD3 /* String_Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E8444AA7278F7F530011CAD3 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				E8444AA8278F7F5C0011CAD3 /* CardView */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		E8444AA8278F7F5C0011CAD3 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				E8444AA9278F7F6D0011CAD3 /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		E85DA8212793002500969121 /* onboarding-module */ = {
+			isa = PBXGroup;
+			children = (
+				E85DA8222793003100969121 /* view */,
+			);
+			path = "onboarding-module";
+			sourceTree = "<group>";
+		};
+		E85DA8222793003100969121 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E83BA88D278EC7E300FC6B1D /* OnboardingVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E85DA8232793004500969121 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				E8855CA027920EE3000E217E /* kategoriliste-module */,
+				E8855C9C27920E24000E217E /* sepet-module */,
+				E83BA8A2278F166A00FC6B1D /* yemekdetay-module */,
+				E83BA892278EF65A00FC6B1D /* anasayfa-module */,
+				E85DA8212793002500969121 /* onboarding-module */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		E8855C9C27920E24000E217E /* sepet-module */ = {
+			isa = PBXGroup;
+			children = (
+				E8855CB52792475E000E217E /* router */,
+				E8855CB427924758000E217E /* presenter */,
+				E8855CB327924752000E217E /* interactor */,
+				E8855CB227924748000E217E /* protocols */,
+				E8855CA427923A4A000E217E /* tableView */,
+				E8855C9D27920E2D000E217E /* view */,
+			);
+			path = "sepet-module";
+			sourceTree = "<group>";
+		};
+		E8855C9D27920E2D000E217E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E8855C9E27920E3C000E217E /* SepetVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E8855CA027920EE3000E217E /* kategoriliste-module */ = {
+			isa = PBXGroup;
+			children = (
+				E8855CA127920EF9000E217E /* view */,
+			);
+			path = "kategoriliste-module";
+			sourceTree = "<group>";
+		};
+		E8855CA127920EF9000E217E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E8855CA227920F05000E217E /* KategoriListeVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E8855CA427923A4A000E217E /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				E8855CA627923A70000E217E /* ListeTableCell.swift */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
+		E8855CB227924748000E217E /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E85DA8192792C54500969121 /* SepetProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		E8855CB327924752000E217E /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E85DA81B2792C5E700969121 /* SepetInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		E8855CB427924758000E217E /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E85DA81D2792C6BB00969121 /* SepetPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		E8855CB52792475E000E217E /* router */ = {
+			isa = PBXGroup;
+			children = (
+				E85DA81F2792C72E00969121 /* SepetRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		FA4758CDEFF752C1D0A31164 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				942188E55CB9373E1231DD13 /* Pods_BitirmeProjesi.framework */,
+				57D2362AB59950455836FB50 /* Pods_BitirmeProjesi_BitirmeProjesiUITests.framework */,
+				498154CF8A44EEF6BF8668B2 /* Pods_BitirmeProjesiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +519,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E83BA881278EC1C400FC6B1D /* Build configuration list for PBXNativeTarget "BitirmeProjesi" */;
 			buildPhases = (
+				7973BB5574586F241C06910A /* [CP] Check Pods Manifest.lock */,
 				E83BA853278EC1C300FC6B1D /* Sources */,
 				E83BA854278EC1C300FC6B1D /* Frameworks */,
 				E83BA855278EC1C300FC6B1D /* Resources */,
+				52D069BF570CA5C252526E6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BitirmeProjesi;
+			packageProductDependencies = (
+				E8855CBB27924830000E217E /* Alamofire */,
+			);
 			productName = BitirmeProjesi;
 			productReference = E83BA857278EC1C300FC6B1D /* BitirmeProjesi.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +541,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E83BA884278EC1C400FC6B1D /* Build configuration list for PBXNativeTarget "BitirmeProjesiTests" */;
 			buildPhases = (
+				40074A5D69EE2B93C1F488F2 /* [CP] Check Pods Manifest.lock */,
 				E83BA869278EC1C400FC6B1D /* Sources */,
 				E83BA86A278EC1C400FC6B1D /* Frameworks */,
 				E83BA86B278EC1C400FC6B1D /* Resources */,
@@ -169,9 +560,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E83BA887278EC1C400FC6B1D /* Build configuration list for PBXNativeTarget "BitirmeProjesiUITests" */;
 			buildPhases = (
+				48AE709E276B46E880F874F6 /* [CP] Check Pods Manifest.lock */,
 				E83BA873278EC1C400FC6B1D /* Sources */,
 				E83BA874278EC1C400FC6B1D /* Frameworks */,
 				E83BA875278EC1C400FC6B1D /* Resources */,
+				DBC008D23AD3C2D3F9A2B4D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +608,9 @@
 				Base,
 			);
 			mainGroup = E83BA84E278EC1C300FC6B1D;
+			packageReferences = (
+				E8855CBA27924830000E217E /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = E83BA858278EC1C300FC6B1D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +627,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E83BA891278EC99D00FC6B1D /* nusret-video.mp4 in Resources */,
 				E83BA867278EC1C400FC6B1D /* LaunchScreen.storyboard in Resources */,
 				E83BA864278EC1C400FC6B1D /* Assets.xcassets in Resources */,
+				E83BA88C278EC56400FC6B1D /* Harabara.otf in Resources */,
 				E83BA862278EC1C300FC6B1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +651,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40074A5D69EE2B93C1F488F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitirmeProjesiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48AE709E276B46E880F874F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitirmeProjesi-BitirmeProjesiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D069BF570CA5C252526E6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitirmeProjesi/Pods-BitirmeProjesi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitirmeProjesi/Pods-BitirmeProjesi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BitirmeProjesi/Pods-BitirmeProjesi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7973BB5574586F241C06910A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitirmeProjesi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC008D23AD3C2D3F9A2B4D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitirmeProjesi-BitirmeProjesiUITests/Pods-BitirmeProjesi-BitirmeProjesiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitirmeProjesi-BitirmeProjesiUITests/Pods-BitirmeProjesi-BitirmeProjesiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BitirmeProjesi-BitirmeProjesiUITests/Pods-BitirmeProjesi-BitirmeProjesiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E83BA853278EC1C300FC6B1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E83BA85F278EC1C300FC6B1D /* ViewController.swift in Sources */,
+				E8855CB727924771000E217E /* AnasayfaProtocols.swift in Sources */,
+				E83BA8A7278F16A800FC6B1D /* YemekDetayVC.swift in Sources */,
+				E8855CC42792531A000E217E /* YemekDetayInteractor.swift in Sources */,
+				E83BA899278EF6E400FC6B1D /* AnasayfaVC.swift in Sources */,
+				E83BA88E278EC7E300FC6B1D /* OnboardingVC.swift in Sources */,
 				E83BA85B278EC1C300FC6B1D /* AppDelegate.swift in Sources */,
+				E8444AA4278F77E00011CAD3 /* String_Extension.swift in Sources */,
+				E8444AA6278F7B360011CAD3 /* YemekKategori.swift in Sources */,
+				E85DA81C2792C5E700969121 /* SepetInteractor.swift in Sources */,
+				E8855CBE27924953000E217E /* AnasayfaPresenter.swift in Sources */,
+				E8855CC22792529E000E217E /* YemekDetayProtocols.swift in Sources */,
+				E8855C9F27920E3C000E217E /* SepetVC.swift in Sources */,
+				E8855CAD27923DE4000E217E /* SepetCevap.swift in Sources */,
+				E8444AAC278F8ACB0011CAD3 /* PopulerCVC.swift in Sources */,
+				E8855CA827923A70000E217E /* ListeTableCell.swift in Sources */,
+				E85DA81A2792C54500969121 /* SepetProtocols.swift in Sources */,
 				E83BA85D278EC1C300FC6B1D /* SceneDelegate.swift in Sources */,
+				E83BA89F278F0B7F00FC6B1D /* YemekCevap.swift in Sources */,
+				E8855CA327920F05000E217E /* KategoriListeVC.swift in Sources */,
+				E82A76BD27905C83005A9A6D /* TumUrunlerCVC.swift in Sources */,
+				E85DA8152792C1D000969121 /* YemekDetayPresenter.swift in Sources */,
+				E8444AA0278F77270011CAD3 /* CategoryCVC.swift in Sources */,
+				E8855CAB27923D8C000E217E /* Sepet.swift in Sources */,
+				E8855CC0279249A1000E217E /* AnasayfaRouter.swift in Sources */,
+				E85DA8172792C26C00969121 /* YemekDetayRouter.swift in Sources */,
+				E8444AAA278F7F6D0011CAD3 /* CardView.swift in Sources */,
+				E8855CB9279247F2000E217E /* AnasayfaInteractor.swift in Sources */,
+				E83BA8A1278F0C0400FC6B1D /* Yemek.swift in Sources */,
+				E85DA8202792C72E00969121 /* SepetRouter.swift in Sources */,
+				E85DA81E2792C6BB00969121 /* SepetPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +962,7 @@
 		};
 		E83BA882278EC1C400FC6B1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C1C685E5310342573AFFF4 /* Pods-BitirmeProjesi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +991,7 @@
 		};
 		E83BA883278EC1C400FC6B1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C985D27F5A4BE0E5F148D1D /* Pods-BitirmeProjesi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +1020,7 @@
 		};
 		E83BA885278EC1C400FC6B1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144BE2F4E2D77D47B19D5426 /* Pods-BitirmeProjesiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +1046,7 @@
 		};
 		E83BA886278EC1C400FC6B1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FFBA906F44DD7F37E11138B /* Pods-BitirmeProjesiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +1072,7 @@
 		};
 		E83BA888278EC1C400FC6B1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CE5BF18F826877AD2E3C1C /* Pods-BitirmeProjesi-BitirmeProjesiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +1096,7 @@
 		};
 		E83BA889278EC1C400FC6B1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C85567AA4090499D938F1FC /* Pods-BitirmeProjesi-BitirmeProjesiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -624,6 +1158,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E8855CBA27924830000E217E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E8855CBB27924830000E217E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8855CBA27924830000E217E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E83BA84F278EC1C300FC6B1D /* Project object */;
 }
